@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:unit": "vitest run"
+    "test:unit": "vitest run",
+    "lint": "eslint . --ext .js,.vue"
   },
   "dependencies": {
     "vue": "^3.4.21"
